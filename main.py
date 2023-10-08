@@ -10,6 +10,7 @@ def welcome():
 def predict():
      title = request.form['title']
      content = request.form['content']
+
      return title
 
 
