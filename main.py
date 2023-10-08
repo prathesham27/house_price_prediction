@@ -9,6 +9,7 @@ def welcome():
 @app.route('/predict', methods=('GET', 'POST'))
 def predict():
      title = request.form['title']
+     content = request.form['content']
      return title
 
 
